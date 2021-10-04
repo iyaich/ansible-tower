@@ -1,6 +1,6 @@
 ---
 - name: This is a play within a playbook
-  hosts: 172.29.50.159
+  hosts: ansible-tower.cloud.3s.local
   become: yes
   vars:
     httpd_packages:
