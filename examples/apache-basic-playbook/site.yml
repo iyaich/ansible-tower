@@ -1,6 +1,6 @@
 ---
 - name: This is a play within a playbook
-  hosts: ansible-tower.cloud.3s.local
+  hosts: localhost
   become: yes
   vars:
     httpd_packages:
